@@ -1,0 +1,30 @@
+# StackChan AI Inspector - Configuration Example
+# Merge into xiaozhi-server/data/.config.yaml.
+# Do not replace the entire original configuration.
+
+selected_module:
+  LLM: OllamaLLM
+  VLLM: Gemma4Vision
+  TTS: VoiceVoxTTS
+LLM:
+  OllamaLLM:
+    type: ollama
+    model_name: gemma4:12b
+    base_url: http://host.docker.internal:11434
+VLLM:
+  Gemma4Vision:
+    type: openai
+    model_name: gemma4:12b
+    base_url: http://host.docker.internal:11434/v1
+    api_key: ollama
+TTS:
+  VoiceVoxTTS:
+    type: voicevox
+    language: 日本語
+    base_url: http://host.docker.internal:50021
+    speaker: 3
+    speed_scale: 1.0
+    pitch_scale: 0.0
+    intonation_scale: 1.0
+    volume_scale: 1.0
+    format: wav
