@@ -8,11 +8,11 @@ A collection of custom features for StackChan AI.AGENT.
 - ✅ Blink Animation
 - ✅ Speaking Animation
 - ✅ Breathing Animation
+- ✅ VOICEVOX
+- ✅ Camera Vision
 
 ## Planned Features
 
-- ⏳ VOICEVOX
-- ⏳ Camera Vision
 - ⏳ AppleScript
 - ⏳ RAG
 
